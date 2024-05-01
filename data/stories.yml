@@ -1,0 +1,65 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: flight search
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: flight_search
+  - action: utter_flight_search
+
+- story: flight schedule
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: flight_schedule
+  - action: utter_flight_schedule
+
+- story: flight status
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: flight_status
+  - action: utter_flight_status
+
+- story: airport information
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: airport_information
+  - action: utter_airport_information
+
+- story: fare enquiry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fare_enquiry
+  - action: utter_fare_enquiry

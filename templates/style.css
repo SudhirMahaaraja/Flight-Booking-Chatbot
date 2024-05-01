@@ -1,0 +1,74 @@
+/* Adjust font size and family */
+body {
+  font-size: 16px;
+  font-family: "Epilogue", sans-serif;
+}
+
+/* Set background color */
+body {
+  background: #54a28b;
+}
+
+/* Adjust card dimensions and styling */
+.card {
+  height: 90vh;
+  width: 70vw;
+  background-color: white;
+  margin: 5vh auto;
+  box-shadow: 2vw 2vw 12vw 3vw #ccc;
+  padding: 1.5vw;
+  overflow-y: auto; /* Enable scrollbar for card content */
+}
+
+/* Style header */
+.card #header {
+  background: #000;
+  padding: 1vw;
+}
+
+.card #header h1 {
+  color: #fff;
+  font-size: 2vw;
+  font-family: "Finger Paint", cursive;
+}
+
+/* Style message section */
+.card #message-section {
+  padding: 1vw;
+  overflow-y: auto; /* Enable scrollbar for message section */
+}
+
+/* Style individual messages */
+.card #message-section .message {
+  margin: 1vw 0;
+  padding: 1vw;
+}
+
+.card #message-section #user {
+  float: right;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Style input section */
+.card #input-section {
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+.card #input-section input[type="text"] {
+  flex: 1; /* Take remaining space */
+  height: 5vw;
+  padding: 0.5vw;
+  border: solid 1px #000;
+}
+
+.card #input-section .send {
+  margin-left: 1vw;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0.5vw 1vw;
+  cursor: pointer;
+}

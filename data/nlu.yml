@@ -1,0 +1,131 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: flight_search
+  examples: |
+    - Find me a flight from Chennai to New York. 
+    - Search for flights from Chennai to New York.
+    - I need to book a flight from Chennai to New York.
+    - What flights are available from Chennai to New York?
+    - Can you help me find a flight from Chennai to New York?
+    - Show me flights departing from Chennai to New York.
+
+- intent: flight_schedule
+  examples: |
+    - What is the schedule for flights from Chennai to New York?
+    - Show me the flight schedule from Chennai to New York.
+    - When are the flights departing from Chennai to New York?
+    - Give me the timetable for flights from Chennai to New York.
+    - What time do the flights leave from Chennai to New York?
+
+- intent: flight_status
+  examples: |
+    - Check the status of flight AB123.
+    - Is flight XY456 on time?
+    - What is the status of flight CD789?
+    - Can you tell me if flight EF012 is delayed?
+    - Has flight GH345 departed?
+
+- intent: airport_information
+  examples: |
+    - What is the code for Chennai International Airport?
+    - Give me information about Chennai International Airport.
+    - Where is Chennai International Airport located?
+    - Tell me about Chennai International Airport.
+    - What are the facilities at Chennai International Airport?
+
+- intent: fare_enquiry
+  examples: |
+    - How much does a ticket from Chennai to New York cost?
+    - What is the fare for a flight from Chennai to New York?
+    - Can you give me the price for a ticket from Chennai to New York?
+    - What are the fares for flights from Chennai to New York?

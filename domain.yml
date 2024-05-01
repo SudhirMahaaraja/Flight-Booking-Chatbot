@@ -1,0 +1,71 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - flight_search
+  - flight_schedule
+  - flight_status
+  - airport_information
+  - fare_enquiry
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://unsplash.com/photos/blue-and-yellow-round-logo-VOV0q44b7R4"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_flight_search:
+  - text: "Here are the available flights from Chennai to New York:"
+    buttons:
+      - title: "Book Now"
+
+
+  utter_flight_schedule:
+  - text: "The schedule for flights from Chennai to New York on is as follows:"
+    buttons:
+      - title: "View Details"
+
+
+  utter_flight_status:
+  - text: "The status of flight AB123 is ."
+    buttons:
+      - title: "Check Another Flight"
+
+
+  utter_airport_information:
+  - text: "Here is some information about Chennai International Airport:"
+    buttons:
+      - title: "More Details"
+
+
+  utter_fare_enquiry:
+    - text: "The fare for a ticket from Chennai to New York is "
+      buttons:
+        - title: "Book Now"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
