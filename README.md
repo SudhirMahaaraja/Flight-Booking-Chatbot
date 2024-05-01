@@ -14,16 +14,9 @@ This repository contains code for a Flight Booking Chatbot, which assists users 
 1. **HTML Files:**
 - `index.html`: Frontend interface for the Flight Booking Chatbot.
 
-2. **CSS Files:**
-- `style.css`: Stylesheet for enhancing the visual appeal of the chatbot interface.
-
-3. **JavaScript Files:**
-- `script.js`: Client-side JavaScript code for dynamic interaction with the chatbot.
-
 4. **Python Files:**
 - `app.py`: Backend Flask application managing HTTP requests and responses.
-- `rasa_chatbot.py`: Implementation of the Flight Booking Chatbot using Rasa.
-- `nlp_utils.py`: Utility functions for text processing and analysis using spaCy and TF-IDF.
+
 
 ## Usage
 1. Data Preparation:
@@ -40,8 +33,7 @@ This repository contains code for a Flight Booking Chatbot, which assists users 
 - Incorporation of predictive analytics for suggesting optimal travel options based on user preferences.
 
 ## Contributors
-- [Your Name]
-- [Collaborator Name (if applicable)]
+S Sudhir Mahaaraja
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
